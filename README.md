@@ -5,6 +5,7 @@ Project Description:
 Successfully implemented a full-stack DevOps project involving the integration of Jenkins with Docker to automate the deployment of a Java-based application. The project showcases proficiency in continuous integration and continuous deployment (CI/CD) practices by using Jenkins to build, containerize, and deploy the application on an AWS EC2 Ubuntu server.
 
 Key Steps and Responsibilities:
+
 1. Integrating Jenkins with Git:
 
 Setup Git Repository:
