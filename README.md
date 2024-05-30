@@ -16,6 +16,7 @@ Checkout Code in Jenkins Pipeline:
 
 Used the git plugin in Jenkins to checkout the latest code from the repository.
 Ensured that Jenkins can pull the code updates automatically or through webhooks.
+
 2. Building the Application with Maven:
 
 Configure Maven in Jenkins:
@@ -26,6 +27,7 @@ Build the Package:
 
 Defined stages in the Jenkins pipeline to execute Maven commands.
 Managed dependencies and ensured the application is built successfully.
+
 3. Containerizing the Application with Docker:
 
 Create Dockerfile:
@@ -35,6 +37,7 @@ Build Docker Image:
 
 Integrated Docker commands in the Jenkins pipeline to build the Docker image using the Dockerfile.
 Tagged the Docker image appropriately for version control.
+
 4. Pushing the Docker Image to DockerHub:
 
 DockerHub Configuration:
@@ -45,6 +48,7 @@ Push Image:
 
 Added pipeline steps to push the Docker image to DockerHub.
 Verified the successful upload of the image to the DockerHub repository.
+
 5. Deploying to Docker Server on AWS EC2:
 
 AWS EC2 Setup:
@@ -56,3 +60,4 @@ Pull and Run Docker Image:
 SSH into the EC2 instance from Jenkins using the SSH plugin or command line.
 Pulled the Docker image from DockerHub to the EC2 instance.
 Deployed the Docker container on the EC2 instance using docker run commands.
+
