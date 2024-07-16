@@ -2,8 +2,6 @@ pipeline {
     
     agent any
     
-    tools {
-    maven 'maven3.9.6'
     }
 
     
@@ -14,7 +12,7 @@ pipeline {
         //Git CheckOut the Code
         stage('CheckOutCode'){
             steps{
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/petergillgithub/java-web-app-docker.git']])
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/abhinavakr/Jenkinsfile-Docker_integration_Deploy_DockerServer.git']])
             }
         }
         
